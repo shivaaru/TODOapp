@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background:rgb(0,0,0,0.4) url(colin-watts-r5H-jtbG5QQ-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-blend-mode: darken;
+    position: relative;
+    z-index: 1;
+}
+form{
+
+    width: 380px;
+    height: 440px;
+    color: rgb(247, 245, 245);
+    top: 60%;
+    left: 58%;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-10%,26%); 
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+    border-radius: 10px;
+    font-size: 20px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(10, 9, 9);
+    text-align: center;
+    margin-bottom: 7%;
+    font-family:courgette;
+}
+form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type=email], input[type=password]{
+    border: none;
+    border-bottom: 1px solid rgb(248, 245, 245);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color:rgb(248, 245, 245);
+}
+ button[type=submit]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f51954;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+button input[type=submit]:hover{
+    cursor: pointer;
+}
+.input a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(246, 248, 248);
+    opacity: 0.8;
+}
+.input a:hover{
+    color: #fff;
+    opacity: 1;
+}
+.bottom-text{
+    color: rgba(250, 249, 249, 0.87);
+}
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+.btn a{
+     float: right;
+}
+label{
+    margin-top: 3px;
+}
+#header{
+    padding: 1rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.textbox{
+    width: 50%;
+    border-color: black;
+}

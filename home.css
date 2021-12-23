@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.lead {
+  font-size: 1.7rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background: rgba(0,0,0,0.4);
+}
+h1{
+  color:rgb(252, 247, 247);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: right;
+}
+
+.navbar ul li {
+  float: right;
+  margin: 0 1rem;
+  padding: 1rem;
+  margin-top: 2d fpx;
+  margin-right: 12px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin-top:120px;
+  font-size: 17px;
+  letter-spacing: .2rem;
+}
+
+.navbar ul li a:hover {
+  color: crimson;
+  transition: 0.5s ease-in-out;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.new{
+  margin-right: 900px;
+  margin-top: 50px;
+}
+
+.new h4{
+  font-size: 18px;
+  letter-spacing: .1rem;
+  font-family: cursive;
+  text-align: left;
+  color: crimson;
+  margin-top: -20px;
+}
+section h1 {
+  font-size: 5rem;
+  
+}
+section#home {
+  background:rgb(0,0,0,0.4) url('tengen-toppa-gurren-lagann-4k-1m.jpg') no-repeat center center/cover;;
+  background-position: top center;
+  background-blend-mode: darken;
+  z-index: 1;
+}
+@media(max-width:998px){
+   html{
+     font-size: 55%;
+   }
+}
+@media(max-width:768px){
+   html{
+     font-size: 45%;
+   }
+}
+  
+#uname{
+  text-align: right;
+  background-color: transparent;
+}
+
